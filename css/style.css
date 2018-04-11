@@ -1,0 +1,236 @@
+/*================================
+Default values
+
+font family: Roboto condensed;
+
+Greenish blue : #34c6d30  (Button, icons, links, background)
+steel gray: #41464b (headings)
+blue bayoux : #64707b (paragraphs)
+white : #fff (text with black background)
+black : #000
+background: linear-gradient(40deg, rgba(222,248,255,0.9) 0%, rgba(0,128,128,1) 100%
+===================*/
+
+html,body{
+	height: 100%;
+}
+
+body{
+	font-family: "Roboto condensed", sans-serif;
+
+}
+p{
+	color: #000;
+	font-size: 16px;
+	font-weight: 300;
+}
+h3{
+	color:#fff;
+	
+}
+
+/*      home    */
+#home{
+	height: 100%;
+}
+
+#home-cover{
+	height: 100%;
+	background-image: url("../images/home.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#home-content-box{
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+
+#home-content-box-inner{
+	display: table-cell;
+	vertical-align:middle;
+	text-align: center;
+}
+
+#home-heading h3{
+	color: #fff;
+	font-size: 55px;
+	font-weight: 700;
+	margin: 20px 0 20px 0;
+}
+
+#home-heading h6{
+	font-size: 2.3em;
+    color: #fff;
+    padding: 0 0em 0.5em 0;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #01edc9;
+    display: inline-block;
+		text-transform: uppercase;
+}
+
+/*    parallax(generic)    */
+.bg-parallax{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.more a {
+    font-size: 1em;
+    color: #fff;
+    padding: 0.7em 2.5em;
+    position: relative;
+    -webkit-backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none;
+    display: inline-block;
+    background: #00b3fe;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 2px solid #00b3fe;
+	-webkit-transition:.5s all;
+	-moz-transition:.5s all;
+	-o-transition:.5s all;
+	-ms-transition:.5s all;
+	transition:.5s all;
+}
+.more a:hover{
+	background:transparent;
+	-webkit-border-radius:30px;
+	-moz-border-radius:30px;
+	border-radius:30px;
+	 color: #00b3fe;;
+}
+
+
+
+/*    content box   */
+.content-box{
+	padding: 60px 0 60px 0;
+	background-image: linear-gradient(90deg, #ff935c, #fb406c);
+}
+.content-title h3{
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	margin: 0 0 30px 0;
+}
+.content-title-underline{
+	width: 30px;
+	height: 3px;
+	background-color: #34c6d3;
+	margin: 0 auto 30px auto;
+}
+
+
+/*    about     */
+.title-color h3{
+	color: #34c6d3;
+}
+
+#about-bg-diagonal{
+	width: 60%;
+	height: 600px;
+	float: right;
+	background-image: url(../images/about.jpeg);
+	border-left: 200px solid #fff;
+	border-top: 700px solid transparent;
+	background-repeat: no-repeat;
+	background-size: cover;
+}	
+
+#about-content-box{
+	float: left;
+	height: 700px;
+}
+#about-content-box-outer{
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+#about-content-box-inner{
+	display: table-cell;
+	vertical-align: middle;
+}
+#about .content-title h3{
+	text-align: left;
+}
+#about .content-title-underline{
+	margin: 0 0 30px 0;
+}
+#about p{
+	margin-bottom: 30px;
+}
+
+/*-- features --*/
+.agileits-title{
+	color: #fff;
+	border-left: 5px solid #01edc9;
+    display: inline-block;
+    padding-left: 0.6em;
+     font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 0.8em;
+}
+.features {
+    padding: 5em 0;
+    background-color: #566573;
+}
+.features-agilerow {
+    margin-top: 4em;
+}
+.w3ls-title {
+    text-align: center;
+}
+.features p.pagile-text {
+    width: 72%;
+    margin: 0 auto 5em;
+    text-align: center;
+}
+.features-right img {
+    width: initial;
+}
+.features-w3grid.features-w3grid-mdl {
+    margin: 2.5em 0;
+}
+.features-w3grid-right p{
+	color: #fff;
+}
+.features h4 {
+    font-size: 1.3em;
+    margin-bottom: .5em;
+    color: #01edc9;
+    font-weight: 600;
+}
+.features-w3grid-left {
+    text-align: center;
+}
+.features i.fa {
+    font-size: 1.6em;
+    padding: 0.8em;
+    border: 1px solid ;
+    color: #00b3fe;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+	-webkit-transition:.5s all;
+	-moz-transition:.5s all;
+	-o-transition:.5s all;
+	-ms-transition:.5s all;
+	transition:.5s all;
+}
+.features-w3grid:hover i.fa {
+    color: #01edc9;
+	-webkit-transform:rotatey(180deg);
+	-moz-transform:rotatey(180deg);
+	-o-transform:rotatey(180deg);
+	-ms-transform:rotatey(180deg);
+	transform:rotatey(180deg);
+}
