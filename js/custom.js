@@ -11,3 +11,21 @@ $(function(){
 		time: 3000
 	})
 })
+
+/* slider */
+
+$(document).ready(function(){
+
+  $('.fade').slick({
+   dots: true
+  });
+});
+
+
+$(document).ready(function(){
+   $(".image_slider").slick({
+   	dots: true,
+      arrows: true,
+      autoplay: true
+   });
+});
