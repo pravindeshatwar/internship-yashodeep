@@ -26,6 +26,13 @@ $(document).ready(function(){
    $(".image_slider").slick({
    	dots: true,
       arrows: true,
-      autoplay: true
+      // autoplay: true
+   });
+});
+$(document).ready(function(){
+   $(".image_slider_topper").slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 3
    });
 });
