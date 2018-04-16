@@ -120,6 +120,9 @@ h3{
 	text-align: center;
 	margin: 0 0 30px 0;
 }
+.content-title-white h3{
+   color: #fff;
+}
 .content-title-underline{
 	width: 30px;
 	height: 3px;
@@ -170,12 +173,12 @@ h3{
 /*-- features --*/
 .agileits-title{
 	color: #fff;
-	border-left: 5px solid #01edc9;
+	/* border-left: 5px solid #01edc9; */
     display: inline-block;
     padding-left: 0.6em;
      font-size: 3em;
     font-weight: 700;
-    margin-bottom: 0.8em;
+    margin-bottom: 0.4em;
 }
 .features {
     padding: 5em 0;
@@ -245,7 +248,7 @@ h3{
 #stats .content-box{
 	background-image: linear-gradient(to right top, #e1cc75, #b6d88d, #90ddb1, #7cded3, #87daeb);
 }
-.content-title-white h3{
+.content-title-gray h3{
 color: #566573;
 }
 .stats-item{
@@ -351,4 +354,62 @@ color: #566573;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+
+/*====================================================
+                     TESTIMONIALS
+======================================================*/
+#testimonials-cover{
+   background-image: url("../images/bg-testimonials.jpg");
+}
+
+#testimonials .content-box{
+   background-color: rgba(0,0,0,0.1);
+}
+#customer-testimonials{
+   padding: 50px 0;
+}
+.testimonial img{
+   max-width: 120px;
+   margin: 0 auto;
+}
+.testimonial blockquote{
+   border: 0;
+   font-family: Georgia, sans-serif;
+   font-style: italic;
+   color: #fff;
+   padding: 6px 150px;
+   position: relative;
+}
+.testimonial blockquote p{
+   color: #fff;
+}
+.testimonial blockquote::before,
+.testimonial blockquote::after{
+   font-size: 80px;
+   font-style: normal;
+   line-height: 1;
+   width: 30px;
+   height: 30px;
+   position: absolute;
+}
+.testimonial blockquote::before{
+   content: "\201C";
+   top: 0;
+   left: 100px;
+}
+.testimonial blockquote::after{
+   content: "\201D";
+   bottom: 0;
+   right: 100px;
+}
+
+.testimonial-author p{
+   color: #fff;
+   font-size: 17px;
+}
+.testimonial-author p strong{
+   display: block;
+   font-weight: 700;
 }

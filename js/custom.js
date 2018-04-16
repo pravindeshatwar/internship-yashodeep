@@ -14,6 +14,17 @@ $(function () {
 
 });
 
+$(function(){
+   $("#customer-testimonials").owlCarousel({
+      items: 1,
+      autoplay: true,
+      loop: true,
+      smartSpeed: 700,
+      autoplayHoverPause: true
+   });
+})
+
+
 /*   stats    */
 $(function(){
 
