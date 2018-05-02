@@ -22,7 +22,37 @@
 
 
 </head>
-<body>
+<body data-spy="scroll" data-target=".demo-top-nav" data-offset="65">
+	<header>
+		 <nav class="navbar demo-top-nav navbar-fixed-top" role="navigation">
+		 	<div class="container-fluid">
+		 		<div class="demo-nav-wrapper">
+		 			<div class="navbar-header">
+		 				<button  type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#demo-menu">
+		 					<span class="sr-only">Toggle navigation</span>
+		 					<span class="icon-bar"></span>
+		 					<span class="icon-bar"></span>
+		 					<span class="icon-bar"></span>
+		 				</button>
+		 				<a class="navbar-brand" href="#home">
+		 					Yashodeep Coaching Classes
+		 				</a>
+		 			</div>
+		 			<div class="collapse navbar-collapse " id="demo-menu">
+		 				<ul class="nav navbar-nav">
+		 					<li><a href="#home">Home</a></li>
+		 					<li><a href="#courses">Courses</a></li>
+		 					<li><a href="#features">Features</a></li>
+		 					<li><a href="#about">About</a></li>
+		 					<li><a href="#stats">Stats</a></li>
+		 					<li><a href="#contact">Contact</a></li>
+		 				</ul>
+		 			</div>
+		 		</div>
+		 	</div>
+		 </nav>   
+	</header>
+
 	<!-- home -->
 	<section id="home">
 			<div id="home-cover" class="bg-parallax animated fadeIn">
@@ -30,9 +60,6 @@
 					<div id="home-content-box-inner">
 						<div id="home-heading" class="animated bounceInLeft">
 							<h6>Welcome</h6>
-							<h3>
-							Yashodeep Coaching Classes
-							</h3>
 						</div>
 						<br />
 						<div class='container'>
@@ -45,7 +72,7 @@
 						</div>
 						<br />
 						<div class="more">
-							<a href="#" data-toggle="modal" data-target="#myModal"> Read More</a>
+							<a href="#about"> Read More</a>
 						</div>
 					</div>
 				</div>
@@ -199,9 +226,8 @@
 	</section>
 
 	<!-- features -->
-	<section>
+	<section id="features">
 		<div class="features">
-
 			<div class="container">
 				<div class="w3ls-title wow animated fadeIn">
 					<h3 class="agileits-title">Features</h3>
