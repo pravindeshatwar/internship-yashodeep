@@ -52,3 +52,17 @@ $(function(){
 $('#myModal').on('shown.bs.modal', function () {
   $('#myInput').trigger('focus')
 })
+
+/*==================================
+            TEAM
+==================================*/
+
+$(function(){
+   $("#team-members").owlCarousel({
+      items: 4,
+      autoplay: true,
+      loop: false,
+      smartSpeed: 700,
+      autoplayHoverPause: true
+   });
+})
